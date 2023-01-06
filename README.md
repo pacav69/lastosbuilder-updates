@@ -11,3 +11,9 @@ This will allow Virtualbox to startup and run the windows 11 setup.
 
 # Documentation WIP (work In Progress)
 I've included the instructions for using the last os builder in a new format.
+
+
+# Clone
+To clone create a subdirectory and use the following command:
+
+		git clone https://github.com/pacav69/lastosbuilder-updates
