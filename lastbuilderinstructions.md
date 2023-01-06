@@ -66,8 +66,7 @@ or, by using a clean/official OS ISO, start the install to any VM with a (MBR) s
 3.Install your Base Version of Windows to  the pre-formatted partition (do NOT make new partitions or changes).
 4.When the windows installation gets to the first OOBE screen (Set Languages/Users etc), press Ctrl+Shift+F3 to enter Audit Mode.
 
-![<oobe>](<https://learn.microsoft.com/en-us/windows/configuration/images/oobe.png>)
-
+![<oobe>](https://cldup.com/nLPG5dMZpK.png)
 
 ## Virtualbox cleanup
 ~~~~~~~~~~ Step 3.Run 01.2_Update_Clean_VirtualBox.cmd (This will start the VirtualBox if not already running)
