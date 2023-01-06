@@ -9,5 +9,5 @@ With the introduction of Windows 11 the Lastos builder requires a few tweaks in 
 
 This will allow Virtualbox to startup and run the windows 11 setup.
 
-# Documentation WIP
+# Documentation WIP (work In Progress)
 I've included the instructions for using the last os builder in a new format.
