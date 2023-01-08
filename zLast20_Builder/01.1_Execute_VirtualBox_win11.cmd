@@ -117,7 +117,7 @@ rem --graphicscontroller none|vboxvga|vmsvga|vboxsvga
 "%VBM%" modifyvm "%VMName%" --graphicscontroller vboxsvga
 rem --tpm-type=none | 1.2 | 2.0 | host | swtpm
 "%VBM%" modifyvm "%VMName%" --tpm-type=2.0
-rem "%VBM%" modifyvm "%VMName%" --firmware efi
+"%VBM%" modifyvm "%VMName%" --firmware efi
 rem VBoxManage modifyvm "VM name" --firmware efi
 rem "%VBM%" modifyvm "%VMName%" --description=Project %ProjectName%
 

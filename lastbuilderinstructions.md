@@ -58,6 +58,7 @@ Ensure VirtualBox application v7 or later is installed
 ##2.1 Preparation for Sysprep 
 Use Last20 Builder scripts
 
+
 or, by using a clean/official OS ISO, start the install to any VM with a (MBR) single partition NTFS formatted VHD, this will allow you to mount it to your real OS to capture it later.
 
 1.Run "01.1_Execute_VirtualBox.cmd"
