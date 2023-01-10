@@ -12,6 +12,12 @@ This will allow Virtualbox to startup and run the windows 11 setup.
 # Documentation WIP (work In Progress)
 I've included the instructions for using the last os builder in a new format.
 
+# MyOSBuilder
+In the MyOSBuilder folder there are updated files that can be used in your exiting builder. 
+
+* Create a backup directory named "BackupLast20BuilderScripts"
+* In Last20Builder move the extension of cmd and txt files to "BackupLast20Scripts" directory.
+* Copy the files in MyOSBuilder directory to your Last20Builder directory.
 
 # Clone
 To clone create a subdirectory and use the following command:
