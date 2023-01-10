@@ -1,0 +1,10 @@
+Lastos20 builder updates change log
+added 00.0__Rename_First_ISO_To_Windows_Original_ISO.cmd file which contains the following:
+Checks if virtualbox application is installed and,
+prompts the question "Are you sure you want to continue with using %MountISO% filename?" before proceeding.
+
+Relocated builder files to directory "zLast20_Builder" for ease of deployment.
+
+Added a file named "00.0___About.cmd" and associated text files that display information and check if files exist be proceeding. Still a WIP.
+
+Added MyOSBuilder directory with updated builder files, updated readme with instructions on updating Last20 Builder.
