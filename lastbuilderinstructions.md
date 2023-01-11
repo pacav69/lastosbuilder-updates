@@ -4,7 +4,7 @@
 
 ## For Lastbuilder20 Version 1.01
 
-## 1.0 Preparation for Last20 Build
+## 1.0 Preparation for Last20 Builder
 
 * Make sure to use an original untouched Microsoft ISO to base your build on, this will make the LivePE's stable, SysPrep's smaller and less debugging issues.
 
