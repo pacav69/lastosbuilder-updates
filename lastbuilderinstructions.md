@@ -23,10 +23,10 @@ Tip you can use a project name, for example
 * note: don't use spaces use underscore '_' as a seperator
 
     Last20_Win11_Jan23
-	
-	or Camel Case
-	
-	Last20Win11Jan23
+
+    or Camel Case
+
+    Last20Win11Jan23
 
 the filename structure should be {project name}{windows version}{date}
 
@@ -44,9 +44,9 @@ This extracts the files from the ISO in "\00_Source",
 into the following directories under "\00_Source":
 
 * 01Windows_Original
-*  02Windows_Sysprep
-*  03Windows_NTLite
- 
+* 02Windows_Sysprep
+* 03Windows_NTLite
+
 this will allow the addition of files such as drivers etc
 
 ## 2.0 VirtualBox
@@ -57,7 +57,7 @@ Use the following cmd file to run VirtualBox:
 
 This will create a virtual hard drive based on the contents of "02Windows_Sysprep" directory and
 the contents of the Virtual Hard Drive text files in \Settings\ directory and run VirtualBox.
- 
+
 * note: now self elevates to Administrator or quits if canceled
 
 Ensure VirtualBox application v7 or later is installed
