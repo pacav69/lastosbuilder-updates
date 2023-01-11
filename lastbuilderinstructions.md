@@ -2,23 +2,28 @@
 ![<Lastos logo>](<https://cldup.com/E21ACrr4ZJ.png?raw="true" width="100px"  height="100px">)
 
 # LastOS Builder Document version 1.0
-## For Lastbuilder Version 1.01
+## For Lastbuilder20 Version 1.01
 
 ## 1.0 Preparation for Last20 Build
 * Make sure to use an original untouched Microsoft ISO to base your build on, this will make the LivePE's stable, SysPrep's smaller and less debugging issues.
 
 [download Windows 11 here from microsoft](https://www.microsoft.com/en-au/software-download/windows11)
 
-###1.1 Use an Original Windows ISO
+### 1.1 Use an Original Windows ISO
 Copy an Original Windows ISO to "\00_Source" directory
 
 ### 1.2 MountISO
 Edit the file contents of \Settings\MountISO.txt to the ISO file name.
 This ensures that the builder can find the correct ISO file.
-Tip you can use a project name for example 
+Tip you can use a project name for example
+
 * note: don't use spaces use underscore '_' as a seperator
 
-		Last20_Win11_Jan23
+	Last20_Win11_Jan23
+
+or Camel Case
+
+	Last20Win11Jan23
 
 the filename structure should be {project name}{windows version}{date}
 
