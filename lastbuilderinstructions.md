@@ -1,69 +1,72 @@
-# 
-![<Lastos logo>](<https://cldup.com/E21ACrr4ZJ.png?raw="true" width="100px"  height="100px">)
-
 # LastOS Builder Document version 1.0
+
+![<Lastos logo>](<https://cldup.com/E21ACrr4ZJ.png?raw="true" width="100px"  height="100px">)
 
 ## For Lastbuilder20 Version 1.01
 
 ## 1.0 Preparation for Last20 Build
+
 * Make sure to use an original untouched Microsoft ISO to base your build on, this will make the LivePE's stable, SysPrep's smaller and less debugging issues.
 
 [download Windows 11 here from microsoft](https://www.microsoft.com/en-au/software-download/windows11)
 
 ### 1.1 Use an Original Windows ISO
+
 Copy an Original Windows ISO to "\00_Source" directory
 
 ### 1.2 MountISO
+
 Edit the file contents of \Settings\MountISO.txt to the ISO file name.
 This ensures that the builder can find the correct ISO file.
-Tip you can use a project name for example
+Tip you can use a project name, for example
 
 * note: don't use spaces use underscore '_' as a seperator
 
-	Last20_Win11_Jan23
-
-or Camel Case
-
+    Last20_Win11_Jan23
+	
+	or Camel Case
+	
 	Last20Win11Jan23
 
 the filename structure should be {project name}{windows version}{date}
 
-Use the following cmd file to rename it:
+Use the following cmd file to rename the ISO for the builder to use:
 
     00.0_Rename_First_ISO_To_Windows_Original_ISO.cmd 
 
+### 1.3 Extract Sources
 
- 
- 
-### 1.3 Extract Source
-Use the following cmd file to extract Source:
- 
-	00.1_Extract_Source_ISO.cmd
+Use the following cmd file to extract sources from the ISO as designated by the contents of MountISO.txt file:
+
+ 00.1_Extract_Source_ISO.cmd
 
 This extracts the files from the ISO in "\00_Source",
 into the following directories under "\00_Source":
-* 	01Windows_Original
-* 	02Windows_Sysprep
-* 	03Windows_NTLite
-	
+
+* 01Windows_Original
+*  02Windows_Sysprep
+*  03Windows_NTLite
+ 
 this will allow the addition of files such as drivers etc
 
-##2.0 VirtualBox
+## 2.0 VirtualBox
+
 Use the following cmd file to run VirtualBox:
 
-	01.1_Execute_VirtualBox.cmd
+ 01.1_Execute_VirtualBox.cmd
 
-This will create a virtual hard drive based on the contents of "02Windows_Sysprep" directory and run VirtualBox.
-	
+This will create a virtual hard drive based on the contents of "02Windows_Sysprep" directory and
+the contents of the Virtual Hard Drive text files in \Settings\ directory and run VirtualBox.
+ 
 * note: now self elevates to Administrator or quits if canceled
 
-Ensure VirtualBox application v7 or later is installed 
+Ensure VirtualBox application v7 or later is installed
+
 * note: Default capture key of VirtualBox is the right side Ctrl key
 
+## 2.1 Preparation for Sysprep
 
-##2.1 Preparation for Sysprep 
 Use Last20 Builder scripts
-
 
 or, by using a clean/official OS ISO, start the install to any VM with a (MBR) single partition NTFS formatted VHD, this will allow you to mount it to your real OS to capture it later.
 
@@ -76,6 +79,7 @@ or, by using a clean/official OS ISO, start the install to any VM with a (MBR) s
 ![<oobe>](https://cldup.com/nLPG5dMZpK.png)
 
 ## Virtualbox cleanup
+
 ~~~~~~~~~~ Step 3.Run 01.2_Update_Clean_VirtualBox.cmd (This will start the VirtualBox if not already running)
 * This will prepare, update and clean your Virtual OS ready to capture it, you can boot the VM again once Generalized/OOBE and press Ctrl+Shift+F3 to enter Audit Mode again to re-update/edit your captured OS's using this script to start it.
 
