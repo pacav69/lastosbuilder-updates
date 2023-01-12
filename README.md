@@ -8,7 +8,7 @@ With the introduction of Windows 11 the Lastos builder requires a few tweaks in 
 
 ## MyOSBuilder
 
-In the MyOSBuilder folder there are updated files that can be used in your exiting builder. 
+In the MyOSBuilder folder there are updated files that can be used in your exiting builder.
 
 * Create a backup directory named "BackupLast20BuilderScripts"
 * In Last20Builder move the extension of cmd and txt files to "BackupLast20Scripts" directory.
@@ -22,9 +22,6 @@ To clone create a subdirectory and use the following command:
 
 this will copy the files to your computer into the created subdirectory.
 
-
 ## Documentation WIP (work In Progress)
 
 I've included the instructions for using the last os builder in a new format.
-
-

@@ -8,8 +8,9 @@
 
 * Make sure to use an original untouched Microsoft ISO to base your build on, this will make the LivePE's stable, SysPrep's smaller and less debugging issues.
 
-[download Windows 11 here from microsoft](https://www.microsoft.com/en-au/software-download/windows11)
+<img src="https://cldup.com/CNvdnmCQtv.png" alt="Win11 logo" style="height: 100px; width:120px;"/>
 
+[Download Windows 11 ISO here](https://www.microsoft.com/en-au/software-download/windows11/)
 ### 1.1 Use an Original Windows ISO
 
 Copy an Original Windows ISO to "\00_Source" directory
@@ -74,9 +75,22 @@ or, by using a clean/official OS ISO, start the install to any VM with a (MBR) s
 2.Once VirtualBox starts, in the Virtual box window, press a key to boot from the above OS ISO.
 
 3.Install your Base Version of Windows to  the pre-formatted partition (do NOT make new partitions or changes).
-4.When the windows installation gets to the first OOBE screen (Set Languages/Users etc), press Ctrl+Shift+F3 to enter Audit Mode.
+4.When the windows installation gets to the first OOBE screen (Set Languages/Users etc) as shown in Figure 1
+to enter Audit Mode press the following keys:
+*******
 
-![<oobe>](https://cldup.com/nLPG5dMZpK.png)
+``````text
+
+Ctrl+Shift+F3
+
+``````
+
+*******
+
+
+![<Element: oobe>](https://cldup.com/nLPG5dMZpK.png)
+
+Figure 1
 
 ## Virtualbox cleanup
 
