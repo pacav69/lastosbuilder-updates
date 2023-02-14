@@ -25,3 +25,12 @@ this will copy the files to your computer into the created subdirectory.
 ## Documentation WIP (work In Progress)
 
 I've included the instructions for using the last os builder in a new format.
+
+
+## Support
+
+<img src="https://vangogh.teespring.com/v3/image/SugZ-DRGZXUTuSzfrFtaOU3TAUQ/800/800.jpg" width="100px"  height="100px">
+
+[Help support by buying some merchandise](https://cavtronics-3.creator-spring.com/)
+
+
